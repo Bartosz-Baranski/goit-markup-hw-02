@@ -1,0 +1,57 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #212121;
+}
+.logo {
+  font-family: "Raleway", sans-serif;
+  color: #000000;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.18;
+  text-decoration: none;
+}
+span {
+  color: #2196f3;
+}
+link:focus,
+link:hover,
+.link {
+  text-decoration: none;
+}
+.buttons:hover,
+.buttons:focus {
+  cursor: pointer;
+}
+h1 {
+  color: #ffffff;
+  background-color: #2f303a;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+}
+h2 {
+  font-size: 36px;
+  line-height: 1.19;
+}
+h4 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.19;
+}
+p {
+  color: #757575;
+  font-size: 14px;
+  line-height: 1.71;
+}
+h3 {
+  color: #212121;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+ul ul > li {
+  color: #757575;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+}
