@@ -136,3 +136,6 @@ address {
   --brand-color: rgba(117, 117, 117, 0.6);
   --brand-baground-color: #2f303a;
 }
+ul {
+  list-style-type: none;
+}
