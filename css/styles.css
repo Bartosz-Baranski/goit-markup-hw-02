@@ -31,7 +31,7 @@ span {
 .buttons:active {
   color: #ffffff;
   background-color: #2196f3;
-  border: #2196f3;
+  border: #2196f3;      
 }
 .buttons {
   font-family: "Roboto", sans-serif;
@@ -127,4 +127,12 @@ address {
   line-height: 1.17;
   font-style: normal;
   text-decoration: none;
+}
+:root{
+    --brand-color: #212121;
+    --brand-color: #2196f3;
+    --brand-color: #ffffff;
+    --brand color: #757575;
+    --brand-color: rgba(117, 117, 117, 0.6);
+
 }
