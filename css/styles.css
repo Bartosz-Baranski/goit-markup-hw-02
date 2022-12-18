@@ -19,10 +19,20 @@ link:hover,
   text-decoration: none;
   color: #212121;
 }
-.buttons:hover,
-.buttons:focus {
+.buttons:focus,
+.buttons:hover {
+  color: #ffffff;
+  background-color: #2196f3;
+  border: #2196f3;
+}
+.buttons {
+  font-family: "Roboto", sans-serif;
+  color: #212121;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
   cursor: pointer;
-
+  background-color: #f5f4fa;
 }
 h1 {
   color: #ffffff;
