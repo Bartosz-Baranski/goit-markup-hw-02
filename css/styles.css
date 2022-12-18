@@ -17,10 +17,12 @@ link:focus,
 link:hover,
 .link {
   text-decoration: none;
+  color: #212121;
 }
 .buttons:hover,
 .buttons:focus {
   cursor: pointer;
+
 }
 h1 {
   color: #ffffff;
@@ -54,4 +56,44 @@ ul ul > li {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
+}
+footer {
+  background-color: #2f303a;
+}
+address {
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1, 71;
+}
+.logo-footer {
+  font-family: "Raleway", sans-serif;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.18;
+  text-decoration: none;
+}
+.contact {
+  color: #757575;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+  font-style: normal;
+  text-decoration: none;
+}
+.mail {
+  color: rgba(117, 117, 117, 0.6);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+}
+.tel {
+  color: rgba(117, 117, 117, 0.6);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+  font-style: normal;
+  text-decoration: none;
 }
