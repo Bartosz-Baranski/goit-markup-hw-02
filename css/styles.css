@@ -8,15 +8,15 @@ body {
   color: #000000;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.18;
+  line-height: 1.172;
   text-decoration: none;
 }
 span {
   color: #2196f3;
 }
-.link:focus,
-.link:hover,
-.link:active {
+.active-blue:focus,
+.active-blue:hover,
+.active-blue:active {
   color: #2196f3;
 }
 .link {
@@ -36,42 +36,54 @@ span {
   color: #212121;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.62;
+  line-height: 1.63;
   cursor: pointer;
   background-color: #f5f4fa;
 }
-h1 {
+.main-title {
   color: #ffffff;
   background-color: #2f303a;
   font-weight: 900;
   font-size: 44px;
-  line-height: 1.36;
+  line-height: 1.364;
 }
-h2 {
+.title {
   font-size: 36px;
-  line-height: 1.19;
+  line-height: 1.172;
 }
 h4 {
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.19;
+  line-height: 1.172;
 }
 p {
   color: #757575;
   font-size: 14px;
-  line-height: 1.71;
+  line-height: 1.72;
 }
-h3 {
+.our-teamat {
+  color: #212121;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.172;
+}
+.product {
   color: #212121;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
 }
-ul ul > li {
+.specialization {
   color: #757575;
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.87;
+  line-height: 1.172;
+}
+.types {
+  color: #757575;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
 }
 
 address {
@@ -98,26 +110,8 @@ address {
   font-style: normal;
   text-decoration: none;
 }
-.contact:hover,
-.contact:active,
-.contact:focus {
-  color: #2196f3;
-}
-.mail {
-  color: rgba(117, 117, 117, 0.6);
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.17;
-}
-.mail:hover,
-.mail:focus,
-.mail:active,
-.tel:hover,
-.tel:focus,
-.tel:active {
-  color: #2196f3;
-}
-.tel {
+
+.contact-footer {
   color: rgba(117, 117, 117, 0.6);
   font-weight: 500;
   font-size: 14px;
