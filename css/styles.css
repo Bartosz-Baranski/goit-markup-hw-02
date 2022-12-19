@@ -11,7 +11,7 @@ body {
   line-height: 1.172;
   text-decoration: none;
 }
-span {
+.logo-color {
   color: #2196f3;
 }
 .active-blue:focus,
@@ -99,14 +99,14 @@ address {
   color: #ffffff;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.18;
+  line-height: 1.172;
   text-decoration: none;
 }
 .contact {
   color: #757575;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.17;
+  line-height: 1.172;
   font-style: normal;
   text-decoration: none;
 }
@@ -115,7 +115,7 @@ address {
   color: rgba(117, 117, 117, 0.6);
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.17;
+  line-height: 1.172;
   font-style: normal;
   text-decoration: none;
 }
@@ -126,6 +126,8 @@ address {
   --brand-color: #757575;
   --brand-color: rgba(117, 117, 117, 0.6);
   --brand-baground-color: #2f303a;
+  --brand-font-family: Roboto;
+  --brand-font-family: Raleway;
 }
 ul {
   list-style-type: none;
