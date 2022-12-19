@@ -1,3 +1,14 @@
+:root {
+  --brand-color: #212121;
+  --brand-color: #2196f3;
+  --brand-color: #ffffff;
+  --brand-color: #757575;
+  --brand-color: rgba(117, 117, 117, 0.6);
+  --brand-baground-color: #2f303a;
+  --brand-font-family: Roboto;
+  --brand-font-family: Raleway;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   color: #212121;
@@ -51,12 +62,12 @@ body {
   font-size: 36px;
   line-height: 1.172;
 }
-h4 {
+.rules {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.172;
 }
-p {
+.explain-rules {
   color: #757575;
   font-size: 14px;
   line-height: 1.72;
@@ -118,16 +129,6 @@ address {
   line-height: 1.172;
   font-style: normal;
   text-decoration: none;
-}
-:root {
-  --brand-color: #212121;
-  --brand-color: #2196f3;
-  --brand-color: #ffffff;
-  --brand-color: #757575;
-  --brand-color: rgba(117, 117, 117, 0.6);
-  --brand-baground-color: #2f303a;
-  --brand-font-family: Roboto;
-  --brand-font-family: Raleway;
 }
 ul {
   list-style-type: none;
