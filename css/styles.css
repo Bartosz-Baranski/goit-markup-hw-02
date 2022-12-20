@@ -1,12 +1,12 @@
 :root {
-  --brand-color: #212121;
-  --brand-color: #2196f3;
-  --brand-color: #ffffff;
-  --brand-color: #757575;
-  --brand-color: rgba(117, 117, 117, 0.6);
-  --brand-baground-color: #2f303a;
-  --brand-font-family: Roboto;
-  --brand-font-family: Raleway;
+  --main-text: #212121;
+  --link-focus: #2196f3;
+  --logo-footer: #ffffff;
+  --signatures: #757575;
+  --contact-footer: rgba(117, 117, 117, 0.6);
+  --baground: #2f303a;
+  --main-font: Roboto;
+  --logo-font: Raleway;
 }
 
 body {
@@ -97,7 +97,7 @@ body {
   line-height: 1.88;
 }
 
-address {
+.our-zone {
   font-family: "Roboto", sans-serif;
   color: #ffffff;
   font-style: normal;
@@ -130,6 +130,13 @@ address {
   font-style: normal;
   text-decoration: none;
 }
-ul {
+
+.contact-list,
+.selection-list,
+.product-list,
+.rules-list,
+.team-list,
+.specialization,
+.types {
   list-style-type: none;
 }
